@@ -1,6 +1,6 @@
-BadUSB_Payloads
+<h1>BadUSB_Payloads</h1>
 
-Payloads for the TECHJUVI BadUSB
+<h3>Payloads for the TECHJUVI BadUSB</h3>
 
 Here you will find payloads for the TechJuvi BadUSB. These Payloads have already been created or edited and will requrie no conversioon via our DuckyScript to BadUSB converter.
 

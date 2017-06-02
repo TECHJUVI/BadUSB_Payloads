@@ -21,7 +21,8 @@ IE: <i><b>Keyboard.print("$SMTPInfo.Credentials = New-Object System.Net.NetworkC
 
 We will also need to specify a "from" email. Find this line of code 
 
-<i><b>Keyboard.print("$ReportEmail.From = 'CHANGE_TO_GMAIL_ADDRESS'");</b></i> on line 109 and edit the text feild labeled<i><b>CHANGE_TO_GMAIL_ADDRESS</b></i> to the same Gmail address from above (IE: senders Gmail).
+<i><b>Keyboard.print("$ReportEmail.From = 'CHANGE_TO_GMAIL_ADDRESS'");</b></i> on line 109 and edit the text feild labeled
+<i><b>CHANGE_TO_GMAIL_ADDRESS</b></i> to the same Gmail address from above (IE: senders Gmail).
 
 The final change you'll need to make is to specify a Revievers Email. The line of code can be found on line 113 and looks like this: 
 

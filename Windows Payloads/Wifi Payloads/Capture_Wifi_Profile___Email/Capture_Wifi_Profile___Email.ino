@@ -146,7 +146,7 @@ void setup()
 
   Keyboard.print("clear");
 
-  delay(1000);
+  delay(1050);
 
   Keyboard.print("exit");
 

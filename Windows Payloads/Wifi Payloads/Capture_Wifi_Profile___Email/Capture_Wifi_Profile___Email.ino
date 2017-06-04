@@ -106,11 +106,11 @@ void setup()
 
   typeKey(KEY_RETURN);
 
-  Keyboard.print("$ReportEmail.From = 'CHANGE_TO_GMAIL_ADDRESS'");
+  Keyboard.print("$ReportEmail.From = 'CHANGE_TO_GMAIL_ADDRESS@gmail.com'");
 
   typeKey(KEY_RETURN);
 
-  Keyboard.print("$ReportEmail.To.Add('CHANGE_TO_Recievers_Email_ADDRESS')");
+  Keyboard.print("$ReportEmail.To.Add('CHANGE_TO_Receivers_Email_ADDRESS')");
 
   typeKey(KEY_RETURN);
 

